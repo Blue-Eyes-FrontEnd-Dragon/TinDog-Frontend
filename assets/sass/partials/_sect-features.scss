@@ -16,12 +16,12 @@
         }
 
         .icon {
-            color: #ef8172;
+            color: $icons;
             margin-bottom: 1rem;
         }
 
         .icon:hover {
-            color: #ff4c68;
+            color: $icons-hover;
             cursor: pointer;
         }
     }
