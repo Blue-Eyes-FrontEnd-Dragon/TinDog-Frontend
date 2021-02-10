@@ -17,6 +17,13 @@ body {
 #header .container-fluid {
   padding: 3% 15%;
 }
+#header .download-btn {
+  margin: 5% 3% 5% 0;
+}
+#header img {
+  width: 60%;
+  transform: rotate(20deg);
+}
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -36,6 +43,29 @@ body {
   font-size: 1.2rem;
   font-family: "Montserrat";
   font-weight: 300;
+}
+
+#features {
+  padding: 7% 15%;
+}
+#features .feature-box {
+  text-align: center;
+  padding: 5%;
+}
+#features .feature-box h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+#features .feature-box p {
+  color: #8f8f8f;
+}
+#features .feature-box .icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+#features .feature-box .icon:hover {
+  color: #ff4c68;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
