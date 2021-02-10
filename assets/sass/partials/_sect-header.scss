@@ -1,4 +1,16 @@
 #header 
 {
     background-color: $header-background;
+    color: white;
+
+    h1 {
+        font-family: $Montserrat;
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .container-fluid {
+        padding: 3% 15%;
+    }
 }
